@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Home
+layout: default
 ---
 # Welcome to SwarmGenomics
 Advances in sequencing technologies have led to a boom in genomic projects, making genomic data readily available. This Citizen Science Project aims to demonstrate how a single genome can be analysed with simple computational methods to provide valuable information about the genetic diversity of the population and its evolutionary history.
