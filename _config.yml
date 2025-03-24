@@ -3,6 +3,7 @@ source              : .
 destination         : ./_site
 collections_dir     : .
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
+                      - jekyll-remote-theme
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
@@ -11,6 +12,9 @@ sass:
 collections:
   posts:
     output          : true
+
+# Themes
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Handling Reading
 safe                : false
