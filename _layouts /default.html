@@ -1,6 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
 <body>
-  {% include header.html %}
-  <div class="content">
-    {{ content }}
-  </div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/scripts">Scripts</a>
+        <a href="/downloads">Downloads</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        © 2024 Your Name
+    </footer>
 </body>
+</html>
