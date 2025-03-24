@@ -28,8 +28,7 @@ future              : false
 unpublished         : false
 
 # Plugins
-whitelist           : []
-plugins:
+plugins             :
   - jekyll-remote-theme
 remote_theme: pages-themes/minimal@v0.2.0
 
