@@ -26,6 +26,9 @@
         nav a:hover {
             text-decoration: underline;
         }
+        .content {
+            margin-top: 20px;
+        }
         footer {
             margin-top: 20px;
             font-size: 14px;
@@ -34,6 +37,7 @@
     </style>
 </head>
 <body>
+
     <nav>
         <a href="/">Home</a>
         <a href="/scripts">Scripts</a>
@@ -41,12 +45,13 @@
         <a href="/contact">Contact</a>
     </nav>
 
-    <main>
+    <div class="content">
         {{ content }}
-    </main>
+    </div>
 
     <footer>
         © 2024 Your Name
     </footer>
+
 </body>
 </html>
